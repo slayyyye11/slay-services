@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#171020">
+<title>SLAY SERVICES — Blox Fruits Services</title>
+<style>
+:root{--bg:#100d17;--panel:#1b1525;--panel2:#241b32;--line:#3c2c4f;--text:#fff8ff;--muted:#c6b5d4;--pink:#ff78c8;--violet:#b79aff;--cyan:#7de7ed;--lime:#c9ff8f;--shadow:0 16px 44px #0005}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 90% 0%,#49204c66,transparent 36%),radial-gradient(ellipse at 0% 30%,#173b4b55,transparent 30%),var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.5}button,input,select,textarea{font:inherit}button{cursor:pointer}.wrap{width:min(1120px,calc(100% - 32px));margin:auto}.nav{position:sticky;top:0;z-index:10;background:#100d17dd;backdrop-filter:blur(16px);border-bottom:1px solid #ffffff14}.navin{display:flex;align-items:center;justify-content:space-between;gap:18px;min-height:72px}.brand{display:flex;align-items:center;gap:10px;font-weight:950;letter-spacing:.08em}.mark{width:39px;height:39px;border-radius:13px;background:linear-gradient(135deg,var(--pink),var(--violet) 55%,var(--cyan));display:grid;place-items:center;color:#24142f;font-weight:1000;font-size:21px;box-shadow:0 0 28px #ff78c833}.brand small{display:block;color:var(--muted);font-size:9px;letter-spacing:.22em;font-weight:700}.navlinks{display:flex;gap:5px;flex-wrap:wrap}.navlinks a,.slip-link{color:var(--muted);text-decoration:none;padding:9px 11px;border-radius:12px;font-size:13px;font-weight:750}.navlinks a:hover,.slip-link:hover{background:var(--panel2);color:white}.slip-link{background:#ff78c81a;border:1px solid #ff78c84a;color:#ffc7e8}.hero{padding:68px 0 46px;display:grid;grid-template-columns:1.25fr .75fr;align-items:center;gap:28px}.eyebrow{display:inline-flex;align-items:center;gap:8px;border:1px solid #b79aff55;background:#b79aff12;color:#e5d7ff;padding:7px 11px;border-radius:999px;font-size:11px;font-weight:850;letter-spacing:.12em;text-transform:uppercase}.dot{width:7px;height:7px;border-radius:50%;background:var(--lime);box-shadow:0 0 12px var(--lime)}h1{font-size:clamp(42px,7vw,76px);line-height:.99;letter-spacing:-.065em;margin:22px 0 18px;max-width:740px}h1 .gradient{background:linear-gradient(90deg,var(--pink),var(--violet),var(--cyan));color:transparent;background-clip:text}.lead{max-width:600px;color:var(--muted);font-size:16px}.actions{display:flex;gap:11px;flex-wrap:wrap;margin-top:26px}.btn{border:0;border-radius:13px;padding:12px 16px;font-weight:850;background:linear-gradient(100deg,var(--pink),var(--violet));color:#24132f;box-shadow:0 8px 26px #b79aff1f}.btn.secondary{background:var(--panel);border:1px solid var(--line);color:var(--text);box-shadow:none}.hero-art{min-height:300px;border-radius:30px;border:1px solid #ffffff19;background:linear-gradient(145deg,#ff78c821,#b79aff15 50%,#7de7ed12),var(--panel);position:relative;overflow:hidden;display:grid;place-items:center;box-shadow:var(--shadow)}.orb{width:180px;height:180px;border-radius:50%;background:linear-gradient(145deg,var(--pink),var(--violet) 50%,var(--cyan));display:grid;place-items:center;color:#281632;font-size:78px;font-weight:1000;transform:rotate(-9deg);box-shadow:0 0 80px #b79aff45,inset -12px -14px 0 #31193b24}.spark{position:absolute;font-size:25px;color:var(--cyan)}.s1{top:14%;left:16%}.s2{right:14%;top:25%;color:var(--pink)}.s3{bottom:14%;right:20%;color:var(--lime)}.art-label{position:absolute;bottom:18px;left:18px;right:18px;border:1px solid #ffffff19;background:#100d17a8;border-radius:15px;padding:12px 14px;display:flex;justify-content:space-between;gap:10px;font-size:12px;font-weight:800}.art-label span:last-child{color:var(--cyan)}section{padding:40px 0;scroll-margin-top:84px}.section-head{display:flex;align-items:end;justify-content:space-between;gap:18px;margin-bottom:22px}.kicker{color:var(--pink);font-size:11px;letter-spacing:.17em;text-transform:uppercase;font-weight:900}.section-head h2{margin:4px 0 0;font-size:clamp(27px,4vw,39px);letter-spacing:-.045em}.section-head p{margin:4px 0 0;color:var(--muted);font-size:14px}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:13px}.cat{border:1px solid var(--line);border-radius:18px;background:linear-gradient(145deg,#ffffff05,transparent),var(--panel);padding:18px;min-height:145px;text-align:left;color:var(--text);transition:.18s}.cat:hover,.cat.active{transform:translateY(-2px);border-color:#ff78c899;background:linear-gradient(145deg,#ff78c812,#b79aff0a),var(--panel)}.cat .emoji{font-size:25px}.cat strong{display:block;margin:12px 0 4px;font-size:15px}.cat small{color:var(--muted);font-size:12px}.toolbar{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}.field{background:#130f1c;border:1px solid var(--line);border-radius:12px;color:var(--text);padding:12px 13px;min-width:0;outline:none}.field:focus{border-color:var(--violet)}.search{flex:1;min-width:190px}.catalog-layout{display:grid;grid-template-columns:240px 1fr;gap:16px}.sidebox,.contentbox,.slipbox,.valuebox{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:17px}.sidebox h3,.contentbox h3{margin:0 0 12px;font-size:15px}.side-list{display:grid;gap:6px}.side-list button{background:transparent;color:var(--muted);border:1px solid transparent;border-radius:10px;padding:10px;text-align:left;font-weight:750;font-size:13px}.side-list button.active,.side-list button:hover{background:var(--panel2);border-color:var(--line);color:white}.item-list{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.item{border:1px solid var(--line);background:#171220;border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:9px}.item h4{margin:0;font-size:14px}.item p{margin:0;color:var(--muted);font-size:12px}.item .price{color:var(--lime);font-weight:900;font-size:13px}.item-actions{display:flex;gap:7px;align-items:center;margin-top:auto}.item-actions select{width:100%;padding:9px}.item-actions .btn{white-space:nowrap;padding:9px 11px;font-size:12px}.hint{color:var(--muted);font-size:12px}.empty{padding:25px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:14px}.values-tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}.tab{background:var(--panel);border:1px solid var(--line);color:var(--muted);padding:10px 14px;border-radius:12px;font-weight:850}.tab.active{background:#b79aff20;color:#f2eaff;border-color:#b79aff88}.value-list{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.value-card{padding:15px;border:1px solid var(--line);background:var(--panel);border-radius:16px}.value-card .icon{font-size:24px}.value-card h3{margin:8px 0 3px;font-size:14px}.value-card p{margin:0;color:var(--muted);font-size:12px}.value-number{color:var(--cyan);font-size:13px;font-weight:900;margin-top:12px}.value-note{margin-top:14px;color:var(--muted);font-size:12px}.slip-layout{display:grid;grid-template-columns:1fr .8fr;gap:15px}.slip-items{display:grid;gap:8px}.slip-row{display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid var(--line);padding:10px 0;font-size:13px}.slip-row button{background:transparent;border:0;color:var(--pink);font-weight:800}.formgrid{display:grid;gap:9px}.formgrid label{font-size:12px;color:var(--muted);display:grid;gap:5px}.receipt{width:100%;min-height:150px;resize:vertical;background:#130f1c;border:1px solid var(--line);border-radius:12px;color:var(--text);padding:12px;font-size:12px}.foot{border-top:1px solid #ffffff14;margin-top:25px;padding:28px 0 40px;color:var(--muted);font-size:12px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}.pill{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:4px 8px;color:var(--muted);font-size:10px;font-weight:850}.notice{background:#ffcf6b12;border:1px solid #ffcf6b40;border-radius:12px;padding:12px;color:#ffe5b0;font-size:12px;margin-top:14px}
+@media(max-width:800px){.hero{grid-template-columns:1fr;padding-top:45px}.hero-art{min-height:235px}.orb{width:145px;height:145px;font-size:64px}.grid{grid-template-columns:repeat(2,1fr)}.catalog-layout{grid-template-columns:1fr}.side-list{grid-template-columns:repeat(2,1fr)}.value-list{grid-template-columns:repeat(2,1fr)}.slip-layout{grid-template-columns:1fr}.navin{align-items:flex-start;padding:12px 0;flex-direction:column}.navlinks{width:100%;overflow-x:auto;flex-wrap:nowrap}.navlinks a{white-space:nowrap}.slip-link{position:absolute;right:0;top:14px}.brand{padding-right:90px}}
+@media(max-width:470px){.wrap{width:calc(100% - 22px)}.grid{gap:8px}.cat{padding:13px;min-height:130px}.item-list{grid-template-columns:1fr}.value-list{grid-template-columns:1fr 1fr}.value-card{padding:12px}.section-head{align-items:flex-start;flex-direction:column}.hero-art{min-height:215px}}
+</style>
+</head>
+<body>
+<header class="nav">
+  <div class="wrap navin">
+    <a class="brand" href="#home" style="color:inherit;text-decoration:none"><span class="mark">S</span><span>SLAY SERVICES<small>BLOX FRUITS • MADE FOR THE GRIND</small></span></a>
+    <nav class="navlinks" aria-label="Main navigation">
+      <a href="#home">Home</a><a href="#services">Services</a><a href="#values">Values</a><a href="#how">How it works</a><a href="#vouches">Vouches</a><a href="#discord">Discord</a>
+    </nav>
+    <a class="slip-link" href="#slip">SLIP <span id="slipCount">0</span> ↗</a>
+  </div>
+</header>
+<main>
+  <div class="wrap hero" id="home">
+    <div>
+      <span class="eyebrow"><span class="dot"></span> YOUR NEXT GRIND STARTS HERE</span>
+      <h1>Play your way.<br><span class="gradient">We handle the grind.</span></h1>
+      <p class="lead">A cleaner way to browse Blox Fruits services, choose exactly what you need, and prepare your order for the SLAY SERVICES Discord team.</p>
+      <div class="actions"><a class="btn" href="#services">Explore services ↗</a><a class="btn secondary" href="#values">Check community values</a></div>
+    </div>
+    <div class="hero-art" aria-label="SLAY Services graphic">
+      <span class="spark s1">✦</span><span class="spark s2">✧</span><span class="spark s3">✦</span><div class="orb">S</div>
+      <div class="art-label"><span>BUILT FOR THE BOLD</span><span>LEVEL UP YOUR GAME ↗</span></div>
+    </div>
+  </div>
+
+  <section id="services">
+    <div class="wrap">
+      <div class="section-head"><div><div class="kicker">THE SERVICE MENU</div><h2>Find your next move.</h2><p>Choose a category, search for an item, then select a service.</p></div><span class="pill">PRICES ARE PLACEHOLDERS FOR NOW</span></div>
+      <div class="grid" id="categoryGrid"></div>
+      <div class="toolbar"><input id="searchInput" class="field search" placeholder="Search services or items…" aria-label="Search services or items"><select id="categoryFilter" class="field" aria-label="Filter by category"><option value="all">All categories</option></select></div>
+      <div class="catalog-layout">
+        <aside class="sidebox"><h3>Browse categories</h3><div id="sideCategories" class="side-list"></div><p class="hint">Items shown are starter examples. We’ll fill out the full verified catalog next.</p></aside>
+        <div class="contentbox"><h3 id="catalogTitle">Featured services</h3><div id="itemList" class="item-list"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="values">
+    <div class="wrap">
+      <div class="section-head"><div><div class="kicker">TRADE SMARTER</div><h2>Community values.</h2><p>Trade estimates are separate from SLAY SERVICES service prices.</p></div></div>
+      <div class="values-tabs" role="tablist" aria-label="Value type"><button class="tab active" data-value-tab="Fruits">🍎 Fruits</button><button class="tab" data-value-tab="Gamepasses">🎮 Gamepasses</button><button class="tab" data-value-tab="Limiteds">✨ Limiteds</button></div>
+      <input id="valueSearch" class="field search" placeholder="Search values…" aria-label="Search values">
+      <div id="valueList" class="value-list" style="margin-top:13px"></div>
+      <p class="value-note">Community values are estimates, not official Roblox prices. The starter values below are intentionally unassigned; verified values and source/last-updated details will be added before launch.</p>
+    </div>
+  </section>
+
+  <section id="how">
+    <div class="wrap">
+      <div class="section-head"><div><div class="kicker">SIMPLE FLOW</div><h2>How it works.</h2><p>Pick the service. Review your Slip. Send the receipt to the team.</p></div></div>
+      <div class="grid">
+        <div class="cat"><span class="emoji">01 ✦</span><strong>Choose a category</strong><small>Search through the service catalog.</small></div>
+        <div class="cat"><span class="emoji">02 ✦</span><strong>Select your service</strong><small>Choose the type of help you need.</small></div>
+        <div class="cat"><span class="emoji">03 ✦</span><strong>Build your Slip</strong><small>Review your selected services and details.</small></div>
+        <div class="cat"><span class="emoji">04 ✦</span><strong>Send your receipt</strong><small>Copy the receipt and paste it into your Discord ticket.</small></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="slip">
+    <div class="wrap">
+      <div class="section-head"><div><div class="kicker">YOUR ORDER</div><h2>The Slip.</h2><p>Selected services, customer details, and a copyable Discord receipt.</p></div></div>
+      <div class="slip-layout">
+        <div class="slipbox"><h3 style="margin-top:0">Selected services</h3><div id="slipItems" class="slip-items"><div class="empty">Your Slip is empty. Add a service from the catalog above.</div></div><div class="slip-row"><strong>Total</strong><strong id="slipTotal">Price pending</strong></div><p class="hint">Final prices will appear here once the service prices are configured.</p></div>
+        <div class="slipbox"><h3 style="margin-top:0">Receipt details</h3><div class="formgrid">
+          <label>Roblox username<input id="robloxName" class="field" placeholder="Your in-game username"></label>
+          <label>Timezone<input id="timezone" class="field" placeholder="e.g. IST (UTC+5:30)"></label>
+          <label>Preferred time<input id="preferredTime" class="field" placeholder="e.g. evenings, 6–9 PM"></label>
+          <label>Payment method (optional)<select id="paymentMethod" class="field"><option value="Not selected">Choose later / not selected</option><option>UPI</option><option>PayPal</option><option>Other — confirm in ticket</option></select></label>
+          <button class="btn" id="makeReceipt">Generate Discord receipt</button>
+          <textarea id="receipt" class="receipt" readonly placeholder="Your receipt will appear here…"></textarea>
+          <button class="btn secondary" id="copyReceipt">Copy receipt</button>
+        </div><div class="notice">Demo build: this page does not submit orders, process payments, or contact Discord. It only creates text for you to copy.</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="vouches">
+    <div class="wrap"><div class="section-head"><div><div class="kicker">COMMUNITY TRUST</div><h2>Vouches & proof.</h2><p>Real customer feedback belongs here once you have permission to publish it.</p></div></div><div class="valuebox"><strong>Real people. Real proof.</strong><p class="hint">Add genuine vouches, screenshots you have permission to share, and completed-order proof here. No sample testimonials are presented as real.</p></div></div>
+  </section>
+  <section id="discord">
+    <div class="wrap"><div class="section-head"><div><div class="kicker">LET'S CONNECT</div><h2>Continue on Discord.</h2><p>Add your official Discord invite URL here when it's ready.</p></div></div><div class="valuebox"><strong>SLAY SERVICES Discord</strong><p class="hint">Discord invite link not configured yet.</p><button class="btn secondary" id="discordCopy">Copy receipt instructions</button></div></div>
+  </section>
+</main>
+<footer class="wrap foot"><span>© <span id="year"></span> SLAY SERVICES</span><span>Fan-made Blox Fruits service concept. Not affiliated with Roblox or the game developers.</span></footer>
+<script>
+const categories = [
+ {id:"farm",name:"Farm / Grind",emoji:"👤",desc:"Levels, mastery, materials and more"},
+ {id:"weapons",name:"Weapons",emoji:"⚔️",desc:"Search swords and guns"},
+ {id:"styles",name:"Fighting Styles",emoji:"🥋",desc:"Unlock and progression services"},
+ {id:"races",name:"Races",emoji:"👑",desc:"Race upgrades and awakening"},
+ {id:"sea",name:"Sea & Events",emoji:"🌊",desc:"Sea bosses, islands and events"},
+ {id:"bosses",name:"Bosses",emoji:"👹",desc:"Boss defeats and rewards"},
+ {id:"pvp",name:"PvP",emoji:"🏆",desc:"Bounty hunting and practice"},
+ {id:"custom",name:"Custom",emoji:"🧩",desc:"Bundles, titles and special requests"}
+];
+const items = [
+ {id:"levels",cat:"farm",name:"Levels",desc:"Choose your current and target level.",services:["Level Progression"]},
+ {id:"mastery",cat:"farm",name:"Mastery",desc:"Choose Fruit, Sword, Gun or Fighting Style mastery.",services:["Mastery Grinding"]},
+ {id:"currency",cat:"farm",name:"Currency Farming",desc:"Beli or Fragments; target amount to be confirmed.",services:["Beli Farming","Fragment Farming"]},
+ {id:"materials",cat:"farm",name:"Materials",desc:"Searchable material quantity-farming requests.",services:["Material Quantity Farming"]},
+ {id:"accessories",cat:"farm",name:"Accessories & Equipment",desc:"Search for an accessory; unlock requests route to their parent category.",services:["Accessory Unlock"]},
+ {id:"aura",cat:"farm",name:"Aura / Instinct Upgrades",desc:"Only the two approved options are included.",services:["Aura Color Unlock","Instinct V2 Unlock"]},
+ {id:"swords",cat:"weapons",name:"Swords",desc:"Starter examples; full verified searchable list comes next.",services:["Full Unlock","Requirements Assistance","Partial Progression"],examples:["Cursed Dual Katana","Shark Anchor","Fox Lamp","Dragonheart","Tushita","Yama"]},
+ {id:"guns",cat:"weapons",name:"Guns",desc:"Starter examples; full verified searchable list comes next.",services:["Full Unlock","Requirements Assistance","Partial Progression"],examples:["Soul Guitar","Dragonstorm","Kabucha","Acidum Rifle","Venom Bow","Magma Blaster"]},
+ {id:"styles",cat:"styles",name:"Fighting Styles",desc:"The 11 approved fighting styles.",services:["Full Unlock","Requirements Assistance","Partial Progression"],examples:["Dark Step","Electric","Water Kung Fu","Dragon Breath","Superhuman","Death Step","Sharkman Karate","Electric Claw","Dragon Talon","Godhuman","Sanguine Art"]},
+ {id:"races",cat:"races",name:"Race Progression",desc:"Select race, target stage, and progression type.",services:["Full Unlock","Upgrade","Full V4 Unlock","Trials Only"],examples:["Human","Rabbit","Shark","Angel","Ghoul","Cyborg","Draco"]},
+ {id:"sea",cat:"sea",name:"Sea & Events",desc:"Island access, sea bosses and event help.",services:["Event Assistance","Specific Reward","All Rewards"],examples:["Terrorshark","Leviathan","Mirage Island","Kitsune Island","Prehistoric Island","Sea Beast"]},
+ {id:"bosses",cat:"bosses",name:"Bosses",desc:"Select a boss and the help you need.",services:["Boss Defeat","Specific Drop / Reward","Multiple Runs"],examples:["Dough King","Darkbeard","rip_indra","Cake Prince"]},
+ {id:"pvp",cat:"pvp",name:"PvP",desc:"Bounty targets, combat goals and practice.",services:["Bounty Hunting","PvP Assistance","PvP Practice"],examples:["Bounty target","Combo practice","1v1 practice","Build optimization","Matchup practice"]},
+ {id:"custom",cat:"custom",name:"Custom Requests",desc:"Staff review required before confirming scope.",services:["Custom Service","Multiple Services Bundle","Titles & Collectibles","Special Request"]}
+];
+const valueData = {
+ Fruits:[["Rocket","Value not set","Community value pending verification"],["Spin","Value not set","Community value pending verification"],["Mammoth","Value not set","Community value pending verification"],["Kitsune","Value not set","Community value pending verification"]],
+ Gamepasses:[["2x Money","Value not set","Trade status/value needs verification"],["2x Mastery","Value not set","Trade status/value needs verification"],["Fast Boats","Value not set","Trade status/value needs verification"],["Fruit Storage","Value not set","Trade status/value needs verification"]],
+ Limiteds:[["Fruit skins","Catalog pending","Only verified tradeable skins will be listed"],["Limited collectibles","Catalog pending","Tradeability must be verified"],["Other limited items","Catalog pending","Community source and last-updated date pending"]]
+};
+let selectedCategory="farm", selectedValueTab="Fruits", slip=[];
+const $=id=>document.getElementById(id);
+function catName(id){return categories.find(c=>c.id===id)?.name||id}
+function renderCategories(){
+ $("categoryGrid").innerHTML=categories.map(c=>`<button class="cat ${selectedCategory===c.id?"active":""}" data-cat="${c.id}"><span class="emoji">${c.emoji}</span><strong>${c.name}</strong><small>${c.desc}</small></button>`).join("");
+ $("sideCategories").innerHTML=categories.map(c=>`<button class="${selectedCategory===c.id?"active":""}" data-cat="${c.id}">${c.emoji} ${c.name}</button>`).join("");
+ $("categoryFilter").innerHTML='<option value="all">All categories</option>'+categories.map(c=>`<option value="${c.id}">${c.name}</option>`).join("");
+ document.querySelectorAll("[data-cat]").forEach(b=>b.addEventListener("click",()=>{selectedCategory=b.dataset.cat;$("categoryFilter").value=selectedCategory;renderCategories();renderItems();}));
+}
+function renderItems(){
+ const q=$("searchInput").value.trim().toLowerCase(), filter=$("categoryFilter").value;
+ const visible=items.filter(it=>(filter==="all"?it.cat===selectedCategory:it.cat===filter) && (it.name+" "+it.desc+" "+(it.examples||[]).join(" ")).toLowerCase().includes(q));
+ $("catalogTitle").textContent=filter==="all"?catName(selectedCategory):catName(filter);
+ $("itemList").innerHTML=visible.map(it=>`<article class="item"><div><span class="pill">${catName(it.cat)}</span><h4 style="margin-top:9px">${it.name}</h4><p>${it.desc}</p>${it.examples?`<p style="margin-top:7px">Examples: ${it.examples.join(", ")}</p>`:""}</div><div class="price">Price: to be set</div><div class="item-actions"><select class="field" id="svc-${it.id}" aria-label="Service for ${it.name}">${it.services.map(s=>`<option>${s}</option>`).join("")}</select><button class="btn" data-add="${it.id}">Add +</button></div></article>`).join("") || '<div class="empty" style="grid-column:1/-1">No matching items. Try another search or category.</div>';
+ document.querySelectorAll("[data-add]").forEach(b=>b.addEventListener("click",()=>addToSlip(b.dataset.add)));
+}
+function addToSlip(id){
+ const it=items.find(x=>x.id===id), service=$("svc-"+id)?.value||it.services[0];
+ slip.push({id:it.id,name:it.name,category:catName(it.cat),service,price:null});
+ renderSlip();
+}
+function renderSlip(){
+ $("slipCount").textContent=slip.length;
+ $("slipItems").innerHTML=slip.length?slip.map((x,i)=>`<div class="slip-row"><div><strong>${x.name}</strong><br><span class="hint">${x.service} · ${x.category}</span><br><span class="hint">Price pending</span></div><button data-remove="${i}">Remove</button></div>`).join(""):'<div class="empty">Your Slip is empty. Add a service from the catalog above.</div>';
+ $("slipTotal").textContent=slip.length?"Price pending":"—";
+ document.querySelectorAll("[data-remove]").forEach(b=>b.addEventListener("click",()=>{slip.splice(Number(b.dataset.remove),1);renderSlip()}));
+}
+function renderValues(){
+ const q=$("valueSearch").value.trim().toLowerCase();
+ const rows=valueData[selectedValueTab].filter(r=>r.join(" ").toLowerCase().includes(q));
+ $("valueList").innerHTML=rows.map((r,i)=>`<article class="value-card"><div class="icon">${selectedValueTab==="Fruits"?"🍎":selectedValueTab==="Gamepasses"?"🎮":"✨"}</div><h3>${r[0]}</h3><p>${r[2]}</p><div class="value-number">${r[1]}</div></article>`).join("")||'<div class="empty" style="grid-column:1/-1">No matching entries.</div>';
+ document.querySelectorAll("[data-value-tab]").forEach(b=>b.classList.toggle("active",b.dataset.valueTab===selectedValueTab));
+}
+document.querySelectorAll("[data-value-tab]").forEach(b=>b.addEventListener("click",()=>{selectedValueTab=b.dataset.valueTab;renderValues()}));
+$("searchInput").addEventListener("input",renderItems);
+$("categoryFilter").addEventListener("change",()=>{if($("categoryFilter").value!=="all")selectedCategory=$("categoryFilter").value;renderCategories();renderItems()});
+$("valueSearch").addEventListener("input",renderValues);
+$("makeReceipt").addEventListener("click",()=>{
+ const name=$("robloxName").value.trim()||"Not provided", zone=$("timezone").value.trim()||"Not provided", time=$("preferredTime").value.trim()||"Not provided", pay=$("paymentMethod").value;
+ const lines=["SLAY SERVICES — ORDER RECEIPT","",`Roblox username: ${name}`,`Timezone: ${zone}`,`Preferred time: ${time}`,`Payment method: ${pay}`,"","Requested services:"];
+ if(!slip.length)lines.push("- No services selected");
+ slip.forEach((x,i)=>lines.push(`${i+1}. ${x.name} — ${x.service} [${x.category}] — Price pending`));
+ lines.push("","Total: Price pending","Please confirm availability, requirements, and final pricing in the official SLAY SERVICES Discord ticket.");
+ $("receipt").value=lines.join("\n");
+});
+$("copyReceipt").addEventListener("click",async()=>{
+ const text=$("receipt").value;
+ if(!text){alert("Generate your receipt first.");return}
+ try{await navigator.clipboard.writeText(text);alert("Receipt copied! Paste it into your Discord ticket.")}catch(e){$("receipt").focus();$("receipt").select();alert("Select and copy the receipt text, then paste it into Discord.")}
+});
+$("discordCopy").addEventListener("click",()=>{location.hash="#slip";$("makeReceipt").scrollIntoView({behavior:"smooth",block:"center"})});
+$("year").textContent=new Date().getFullYear();
+renderCategories();renderItems();renderSlip();renderValues();
+</script>
+</body>
+</html>
